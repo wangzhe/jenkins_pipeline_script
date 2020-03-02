@@ -1,6 +1,6 @@
  def my_attachments = [
   [
-    text: "Hi developers, Pipeline: ${env.JOB_NAME} \n Build: #${env.BUILD_NUMBER} failed :red_circle: fix it asap before something happened! :see_no_evil: \n URL: ${env.JOB_URL}",
+    text: "Hi PHP developers, Pipeline: ${env.JOB_NAME} \n Build: #${env.BUILD_NUMBER} failed :red_circle: fix it asap before something happened! :see_no_evil: \n URL: ${env.JOB_URL}",
     fallback: 'Hey, Santa Claus seems to be mad at you. haha',
     color: '#ff0000'
   ]
