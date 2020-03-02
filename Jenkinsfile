@@ -1,6 +1,6 @@
  def my_attachments = [
   [
-    text: "Pipeline: ${env.JOB_NAME} \n Build: #${env.BUILD_NUMBER} failed :red_circle: fix it before monkey showdown at 11am :see_no_evil: \n URL: ${env.JOB_URL}",
+    text: "Pipeline: ${env.JOB_NAME} \n Build: #${env.BUILD_NUMBER} failed :red_circle: fix it asap beform something happend! :see_no_evil: \n URL: ${env.JOB_URL}",
     fallback: 'Hey, Santa Claus seems to be mad at you. haha',
     color: '#ff0000'
   ]
